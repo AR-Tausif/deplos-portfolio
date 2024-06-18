@@ -6,7 +6,7 @@ export default function WhyMeSection() {
       <div className="flex-1 flex flex-col items-start justify-start gap-[3.312rem] min-w-[15.313rem] max-w-full text-[2rem] mq450:gap-[1.625rem]">
         <h1 className="m-0 relative text-inherit leading-[2.813rem] font-semibold font-inherit mq450:text-[1.188rem] mq450:leading-[1.688rem] mq1000:text-[1.625rem] mq1000:leading-[2.25rem]">
           Почему мы?
-        </h1>
+        </h1>as
         <MeBox
         title="Стабильно"
         desc="Наше оборудование имеет безпрерывную поддержку , низкий пинг и отсутствие лагов. А скорость работы позволит установить сервер за 25 секунд."

@@ -1,7 +1,9 @@
 import Image from "next/image";
 import LogoImg from "@/assets/images/home/logo.png";
+import Pagecontainer from "./PageContainer";
 export default function Footer() {
   return (
+    <Pagecontainer>
     <section className="w-[64.006rem] flex flex-col items-start justify-start gap-[3.375rem] max-w-full text-left text-[2rem] text-white font-h2 mq725:gap-[1.688rem]">
       <div className="self-stretch bg-bg flex flex-col items-start justify-start gap-[1.5rem] max-w-full text-[1rem]">
         <div className="self-stretch rounded flex flex-row items-start justify-between py-[1.25rem] px-[1.375rem] gap-[1.25rem] border-[1px] border-solid border-border mq1000:flex-wrap mq1000:justify-center">
@@ -120,5 +122,6 @@ export default function Footer() {
         </div>
       </div>
     </section>
+    </Pagecontainer>
   );
 }
