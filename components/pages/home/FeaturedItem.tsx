@@ -12,7 +12,7 @@ export default function FeaturedItem({ title, desc, img, inNum,code }: TProps) {
   
   const isOdd = inNum!%2 === 0 
   return (
-    <div className="self-stretch flex flex-row items-start justify-start gap-[2.937rem] max-w-full mq725:gap-[1.438rem] mq1000:flex-wrap">
+    <div className="self-stretch flex flex-col sm:flex-row items-start justify-start gap-[2.937rem] max-w-full mq725:gap-[1.438rem] mq1000:flex-wrap">
       
       {isOdd || <Image
         className="w-[27.125rem] relative rounded-10xs max-h-full object-cover max-w-full mq1000:flex-1"

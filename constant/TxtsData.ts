@@ -19,8 +19,8 @@ const TxtsData = {
         }
       },
       hero: {
-        title: "Reliable game server hosting",
-        desc: "With great network speed and easy control panel",
+        title: "Tausif Ahmed Ritu",
+        desc: "Frontend || MERN Stack || Nodejs Developer",
         btn: "Get Started Now",
       },
     },
