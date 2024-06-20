@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <Pagecontainer>
       <Header />
-      <WhyMeSection />
+      {/* <WhyMeSection /> */}
       <SupportedServices />
       <FeaturedProjectSection />
     </Pagecontainer>
